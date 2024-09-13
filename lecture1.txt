@@ -1,0 +1,25 @@
+Rational Agent 
+    - A rational agent should select an action that is expected to maximize its performace 
+
+Task Envirnment 
+    - The set of parameters that define the agent's task 
+    Broken down into 4 parts:
+        - Performace measure: what are we trying to achieve?
+        - Envirnment: what things in the world do we 
+        - Actuators: 
+        - Sensors: What can we perceive?
+    Example: Robot Vacuum
+        -Performace measure: removes dirt, operate quicky, cover sufficient area
+        -Envirnment: Room, furniture dirt, other obstacles
+        -Actuators: Wheels, Vacuum
+        -Sensore: Bumb sensore, cleanliness sensor
+
+    Types of Task Envirnments
+        - Full obserable vs partically observable: can the agenet see the full state of the envirnment at all times
+        - Single agent vs multi agent: are there other agents we need to consider while doing the task 
+        - Cooperative vs competitive: if there are other agents, are they helping our agent or hindering it completing its job
+        
+        - Discrete vs continous: can we break up time into discrete time steps
+        - Known vs unknown: how well does the agent understand the rules of how the envirnment works?
+
+
